@@ -7,25 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EB997441BB7383E00481353 /* CIImage+Platform.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB997431BB7383E00481353 /* CIImage+Platform.m */; settings = {ASSET_TAGS = (); }; };
+		4EB997461BB73B2A00481353 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB997451BB73B2A00481353 /* libjpeg.a */; };
+		4EB9974F1BB73E5B00481353 /* OpenCVImageHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4EB9974E1BB73E5B00481353 /* OpenCVImageHelper.mm */; settings = {ASSET_TAGS = (); }; };
 		4EEEEF871BB72FDD007DA2AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEEF861BB72FDD007DA2AA /* main.m */; };
 		4EEEEF8A1BB72FDD007DA2AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEEF891BB72FDD007DA2AA /* AppDelegate.m */; };
-		4EEEEF8D1BB72FDD007DA2AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEEF8C1BB72FDD007DA2AA /* ViewController.m */; };
 		4EEEEF901BB72FDD007DA2AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEEEF8E1BB72FDD007DA2AA /* Main.storyboard */; };
 		4EEEEF921BB72FDD007DA2AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EEEEF911BB72FDD007DA2AA /* Assets.xcassets */; };
 		4EEEEF951BB72FDD007DA2AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEEEF931BB72FDD007DA2AA /* LaunchScreen.storyboard */; };
+		4EEEEF9E1BB7301B007DA2AA /* BufferReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEEF9D1BB7301B007DA2AA /* BufferReader.m */; settings = {ASSET_TAGS = (); }; };
+		4EEEEFA11BB7304B007DA2AA /* PupilAnalyzer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEEFA01BB7304B007DA2AA /* PupilAnalyzer.mm */; settings = {ASSET_TAGS = (); }; };
+		4EEEEFA31BB73258007DA2AA /* 1.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4EEEEFA21BB73258007DA2AA /* 1.mov */; settings = {ASSET_TAGS = (); }; };
+		C29B704E04B902D44D2205B5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC73C141479AB270F1DE7A3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4EB997421BB7383E00481353 /* CIImage+Platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIImage+Platform.h"; sourceTree = "<group>"; };
+		4EB997431BB7383E00481353 /* CIImage+Platform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIImage+Platform.m"; sourceTree = "<group>"; };
+		4EB997451BB73B2A00481353 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = PupilTests/libjpeg.a; sourceTree = "<group>"; };
+		4EB9974D1BB73E5B00481353 /* OpenCVImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVImageHelper.h; sourceTree = "<group>"; };
+		4EB9974E1BB73E5B00481353 /* OpenCVImageHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVImageHelper.mm; sourceTree = "<group>"; };
 		4EEEEF821BB72FDD007DA2AA /* PupilTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PupilTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EEEEF861BB72FDD007DA2AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4EEEEF881BB72FDD007DA2AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4EEEEF891BB72FDD007DA2AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4EEEEF8B1BB72FDD007DA2AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4EEEEF8C1BB72FDD007DA2AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4EEEEF8F1BB72FDD007DA2AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EEEEF911BB72FDD007DA2AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EEEEF941BB72FDD007DA2AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EEEEF961BB72FDD007DA2AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EEEEF9C1BB7301B007DA2AA /* BufferReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BufferReader.h; sourceTree = "<group>"; };
+		4EEEEF9D1BB7301B007DA2AA /* BufferReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BufferReader.m; sourceTree = "<group>"; };
+		4EEEEF9F1BB7304B007DA2AA /* PupilAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PupilAnalyzer.h; sourceTree = "<group>"; };
+		4EEEEFA01BB7304B007DA2AA /* PupilAnalyzer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PupilAnalyzer.mm; sourceTree = "<group>"; };
+		4EEEEFA21BB73258007DA2AA /* 1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 1.mov; sourceTree = "<group>"; };
+		7EC73C141479AB270F1DE7A3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7791BF89D7A34EF7F4A3DA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F2EDFB921EBA8F2606B8F65F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EB997461BB73B2A00481353 /* libjpeg.a in Frameworks */,
+				C29B704E04B902D44D2205B5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +63,8 @@
 			children = (
 				4EEEEF841BB72FDD007DA2AA /* PupilTests */,
 				4EEEEF831BB72FDD007DA2AA /* Products */,
+				C100DFA4CA1085DE52050192 /* Pods */,
+				F6CD6FCCAC2047A6146FB78F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +79,17 @@
 		4EEEEF841BB72FDD007DA2AA /* PupilTests */ = {
 			isa = PBXGroup;
 			children = (
+				4EEEEFA21BB73258007DA2AA /* 1.mov */,
+				4EB997421BB7383E00481353 /* CIImage+Platform.h */,
+				4EB997431BB7383E00481353 /* CIImage+Platform.m */,
+				4EB9974D1BB73E5B00481353 /* OpenCVImageHelper.h */,
+				4EB9974E1BB73E5B00481353 /* OpenCVImageHelper.mm */,
 				4EEEEF881BB72FDD007DA2AA /* AppDelegate.h */,
 				4EEEEF891BB72FDD007DA2AA /* AppDelegate.m */,
-				4EEEEF8B1BB72FDD007DA2AA /* ViewController.h */,
-				4EEEEF8C1BB72FDD007DA2AA /* ViewController.m */,
+				4EEEEF9F1BB7304B007DA2AA /* PupilAnalyzer.h */,
+				4EEEEFA01BB7304B007DA2AA /* PupilAnalyzer.mm */,
+				4EEEEF9C1BB7301B007DA2AA /* BufferReader.h */,
+				4EEEEF9D1BB7301B007DA2AA /* BufferReader.m */,
 				4EEEEF8E1BB72FDD007DA2AA /* Main.storyboard */,
 				4EEEEF911BB72FDD007DA2AA /* Assets.xcassets */,
 				4EEEEF931BB72FDD007DA2AA /* LaunchScreen.storyboard */,
@@ -79,6 +107,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C100DFA4CA1085DE52050192 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC7791BF89D7A34EF7F4A3DA /* Pods.debug.xcconfig */,
+				F2EDFB921EBA8F2606B8F65F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6CD6FCCAC2047A6146FB78F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EB997451BB73B2A00481353 /* libjpeg.a */,
+				7EC73C141479AB270F1DE7A3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EEEEF991BB72FDD007DA2AA /* Build configuration list for PBXNativeTarget "PupilTests" */;
 			buildPhases = (
+				C316EFDBDFFEDDCEFDF9F7BF /* Check Pods Manifest.lock */,
 				4EEEEF7E1BB72FDD007DA2AA /* Sources */,
 				4EEEEF7F1BB72FDD007DA2AA /* Frameworks */,
 				4EEEEF801BB72FDD007DA2AA /* Resources */,
+				ABDA0C392AD9DCA9CB8FE607 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,19 +186,56 @@
 			files = (
 				4EEEEF951BB72FDD007DA2AA /* LaunchScreen.storyboard in Resources */,
 				4EEEEF921BB72FDD007DA2AA /* Assets.xcassets in Resources */,
+				4EEEEFA31BB73258007DA2AA /* 1.mov in Resources */,
 				4EEEEF901BB72FDD007DA2AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ABDA0C392AD9DCA9CB8FE607 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C316EFDBDFFEDDCEFDF9F7BF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4EEEEF7E1BB72FDD007DA2AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EEEEF8D1BB72FDD007DA2AA /* ViewController.m in Sources */,
+				4EB9974F1BB73E5B00481353 /* OpenCVImageHelper.mm in Sources */,
+				4EB997441BB7383E00481353 /* CIImage+Platform.m in Sources */,
 				4EEEEF8A1BB72FDD007DA2AA /* AppDelegate.m in Sources */,
+				4EEEEF9E1BB7301B007DA2AA /* BufferReader.m in Sources */,
+				4EEEEFA11BB7304B007DA2AA /* PupilAnalyzer.mm in Sources */,
 				4EEEEF871BB72FDD007DA2AA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,22 +344,36 @@
 		};
 		4EEEEF9A1BB72FDD007DA2AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC7791BF89D7A34EF7F4A3DA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PupilTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vm.PupilTests;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PupilTests",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.keypr.guestapp3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		4EEEEF9B1BB72FDD007DA2AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2EDFB921EBA8F2606B8F65F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PupilTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vm.PupilTests;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PupilTests",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.keypr.guestapp3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -298,6 +397,7 @@
 				4EEEEF9B1BB72FDD007DA2AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

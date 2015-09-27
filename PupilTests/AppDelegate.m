@@ -7,16 +7,19 @@
 //
 
 #import "AppDelegate.h"
+#import "PupilAnalyzer.h"
 
 @interface AppDelegate ()
-
+@property (nonatomic, strong) PupilAnalyzer *pAnalyzer;
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"1" withExtension:@"mov"];
+    self.pAnalyzer = [[PupilAnalyzer alloc] initWithVideoURL:url];
+    [self.pAnalyzer startReading];
     return YES;
 }
 
