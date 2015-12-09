@@ -10,11 +10,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PupilTests/PupilAnalyzer.mm"
-            timestampString = "465083156.181504"
+            timestampString = "468662707.819201"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "249"
+            endingLineNumber = "249"
+            landmarkName = "@implementation PupilAnalyzer"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PupilTests/PupilAnalyzer.mm"
+            timestampString = "468662707.819201"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
             landmarkName = "-bufferReader:didGetNextVideoSample:"
             landmarkType = "5">
          </BreakpointContent>
@@ -22,15 +38,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PupilTests/PupilAnalyzer.mm"
-            timestampString = "465083156.181504"
+            timestampString = "468662707.819201"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
             landmarkName = "-bufferReader:didGetNextVideoSample:"
             landmarkType = "5">
          </BreakpointContent>
@@ -38,15 +54,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PupilTests/PupilAnalyzer.mm"
-            timestampString = "465082987.603455"
+            timestampString = "468662707.819201"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
             landmarkName = "-bufferReader:didGetNextVideoSample:"
             landmarkType = "5">
          </BreakpointContent>
@@ -54,16 +70,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PupilTests/PupilAnalyzer.mm"
-            timestampString = "465083710.394744"
+            timestampString = "468662707.819201"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
-            landmarkName = "-makeUIImageFromCIImage:"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "-bufferReader:didGetNextVideoSample:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

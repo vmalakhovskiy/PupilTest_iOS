@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E27225D1BCEC52700AA462A /* 3.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4E27225C1BCEC52700AA462A /* 3.mov */; settings = {ASSET_TAGS = (); }; };
+		4E27225F1BCEC52F00AA462A /* 2.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4E27225E1BCEC52F00AA462A /* 2.mov */; settings = {ASSET_TAGS = (); }; };
 		4EB997441BB7383E00481353 /* CIImage+Platform.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB997431BB7383E00481353 /* CIImage+Platform.m */; settings = {ASSET_TAGS = (); }; };
 		4EB997461BB73B2A00481353 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB997451BB73B2A00481353 /* libjpeg.a */; };
 		4EB9974F1BB73E5B00481353 /* OpenCVImageHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4EB9974E1BB73E5B00481353 /* OpenCVImageHelper.mm */; settings = {ASSET_TAGS = (); }; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E27225C1BCEC52700AA462A /* 3.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 3.mov; sourceTree = "<group>"; };
+		4E27225E1BCEC52F00AA462A /* 2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 2.mov; sourceTree = "<group>"; };
 		4EB997421BB7383E00481353 /* CIImage+Platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIImage+Platform.h"; sourceTree = "<group>"; };
 		4EB997431BB7383E00481353 /* CIImage+Platform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIImage+Platform.m"; sourceTree = "<group>"; };
 		4EB997451BB73B2A00481353 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = PupilTests/libjpeg.a; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				4EEEEFA21BB73258007DA2AA /* 1.mov */,
+				4E27225E1BCEC52F00AA462A /* 2.mov */,
+				4E27225C1BCEC52700AA462A /* 3.mov */,
 				4EB997421BB7383E00481353 /* CIImage+Platform.h */,
 				4EB997431BB7383E00481353 /* CIImage+Platform.m */,
 				4EB9974D1BB73E5B00481353 /* OpenCVImageHelper.h */,
@@ -186,7 +192,9 @@
 			files = (
 				4EEEEF951BB72FDD007DA2AA /* LaunchScreen.storyboard in Resources */,
 				4EEEEF921BB72FDD007DA2AA /* Assets.xcassets in Resources */,
+				4E27225D1BCEC52700AA462A /* 3.mov in Resources */,
 				4EEEEFA31BB73258007DA2AA /* 1.mov in Resources */,
+				4E27225F1BCEC52F00AA462A /* 2.mov in Resources */,
 				4EEEEF901BB72FDD007DA2AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

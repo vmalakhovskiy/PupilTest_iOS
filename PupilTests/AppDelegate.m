@@ -17,7 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    NSURL *url = [[NSBundle mainBundle] URLForResource:@"1" withExtension:@"mov"];
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"2" withExtension:@"mov"];
     self.pAnalyzer = [[PupilAnalyzer alloc] initWithVideoURL:url];
     [self.pAnalyzer startReading];
     return YES;
